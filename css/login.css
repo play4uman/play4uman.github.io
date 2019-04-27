@@ -1,0 +1,198 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: black;
+    background-size: contain;
+    margin:auto;
+}
+html {
+    height: 100%;
+}
+
+.logo {
+    position: fixed;
+    width: 17%;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+#login {
+    font-weight: bold;
+    color: #ff944d;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    margin-top: 3.5%;
+}
+
+.dropdown-content a{
+    color: #ff944d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#gameDrop,  #universeDrop{
+    margin-left: 13%;
+}
+#statsDrop {
+    margin-left: 4%;
+}
+
+@media (max-width: 768px) {
+  .navbar a {
+      font-size: 20px;
+      padding: 15px 5px;
+  }
+}
+
+#loginForm {
+    border: 2px solid #ff751a;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;     
+}
+
+#loginTitle {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff944d;
+    margin-left: 140px;
+    letter-spacing: 1.5px;   
+
+}
+
+.container p {
+    color: #ff944d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px; 
+
+}
+
+.container {
+    padding-left: 35px;
+    padding-top: 0px;
+}
+
+input[type=text], input[type=password] {
+    background-color: #d9d9d9ff;
+    width: 88%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+}
+/* Hide the browser's default checkbox */
+.containerCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;    
+    background-color:none;
+    border: 1px solid #ff751a;
+  
+}
+
+.containerCheckbox {
+    color: #ff944d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: block;
+    
+}
+
+/*.containerCheckbox span {
+    float: right;
+    margin-top: 10px;
+}*/
+
+button[type="submit"] {
+    background-color: #ff751a;
+    color: black;
+    padding: 4px 20px;
+    margin: 22px 0;
+    border: none;
+    cursor: pointer;
+    width: 88%;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+button:hover {
+    background-color: #ff944d;
+    font-weight: bold;
+
+}
+
+.container a {
+    display: block;
+    color: #ff751a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: 75px;
+    font-size: 18px;
+}
+hr {
+    overflow: hidden;
+    color:#2e0c27;
+    position: fixed;
+    top: 6.5%;
+    width: 73.5%;
+    margin-left: 19.3%;
+}

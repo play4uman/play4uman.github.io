@@ -1,0 +1,153 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: black;
+    background-size: contain;
+    margin:auto;
+}
+html {
+    height: 100%;
+}
+
+.logo {
+    position: fixed;
+    width: 17%;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+#search, #stats {
+    font-weight: bold;
+    color: #ff944d;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    margin-top: 3.5%;
+}
+
+.dropdown-content a{
+    color: #ff944d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#gameDrop,  #universeDrop{
+    margin-left: 13%;
+}
+#statsDrop {
+    margin-left: 4%;
+}
+hr {
+    overflow: hidden;
+    color:#2e0c27;
+    position: fixed;
+    top: 6.5%;
+    width: 73.5%;
+    margin-left: 19.3%;
+}
+
+h1 {
+    overflow: hidden;
+    position: absolute;
+    top: 24%;
+    width: 860px;
+    left: 50%;
+    margin-left: -430px;
+
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #ff751a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+    color: #ff944d;
+    overflow: hidden;
+    width: 760px;
+    left: 50%;
+    margin-left: -430px;
+    height: 36px;
+    padding: 5px;
+    border-radius: 0%;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;    
+    position: absolute;
+    border: 2px solid #ff944d;
+    top: 40%;
+}
+#btnSearch {
+    position: absolute;
+    padding: 0px;
+    top: 39%;
+    left: 77%;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0px;
+}
+#options {
+    position: absolute;
+    display: block;
+    top: 48%;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+
+}
+#options h3 {  
+    color: #ff751a;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 1px 40px 0px 20px;
+    cursor: pointer;
+  
+}
+@media (max-width: 768px) {
+  .navbar a {
+      font-size: 20px;
+      padding: 15px 5px;
+  }
+}

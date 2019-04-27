@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<link href="css/map.css" rel="stylesheet">
+		<title> Map </title>
+	</head>
+	<body>
+        <div id="content" >
+            <img src="img/logo.png" class="logo"/>
+            <div class="navbar">
+                <a id="home" href="home.html">home</a>
+                <div class="dropdown">
+                        <a id="game" class="dropbtn">game</a>
+                        <div id="gameDrop" class="dropdown-content">
+                            <a href="whatIsRate.html">what is rate</a>
+                            <a href="howToPlay.html">how to play</a>
+                            <a href="gameModes.html">game modes</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <a id="universe" class="dropbtn">universe</a>
+                    <div id="universeDrop" class="dropdown-content">
+                        <a id="map" href="map.html">map</a>
+                        <a href="#adventurers">adventurers</a>
+                        <a href="items.html">items</a>
+                        <a href="enemies.html">enemies</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a id="stats" class="dropbtn">stats</a>
+                    <div id="statsDrop" class="dropdown-content">
+                        <a href="leaderboardAdventurers.html">leaderboard adventurers</a>
+                        <a href="#schools">leaderboard schools</a>
+                        <a id="search" href="search.html">search</a>
+                    </div>
+                </div>
+                <a id="support" href="support.html">support</a>
+                <a id="login" href="login.html">login</a>
+                <a id="playnow" href="playnow.html">play now</a>
+            </div>
+            <hr>
+            <h1>where do you want to go?</h1>
+            <img id="imgMap" src="img/map.png" width="1000px" height="500px">
+            <button id="btnEarthContinent"></button>
+         </div>	        
+    </body>
+    <script type="text/javascript">
+        document.getElementById("btnEarthContinent").onclick = function () {
+            location.href = "continent.html";
+        };
+    </script>
+</html>

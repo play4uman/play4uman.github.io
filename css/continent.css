@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+    margin:auto;
+}
+html {
+    height: 100%;
+}
+
+.logo {
+    position: fixed;
+    width: 17%;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+#map, #universe {
+    font-weight: bold;
+    color: #ff944d;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    margin-top: 3.5%;
+}
+
+.dropdown-content a{
+    color: #ff944d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#gameDrop,  #universeDrop{
+    margin-left: 13%;
+}
+#statsDrop {
+    margin-left: 4%;
+}
+hr {
+    overflow: hidden;
+    color:#2e0c27;
+    position: fixed;
+    top: 6.5%;
+    width: 73.5%;
+    margin-left: 19.3%;
+}
+
+h1 {
+    overflow: hidden;
+    position: absolute;
+    top: 14%;
+    width: 570px;
+    left: 50%;
+    margin-left: -285px;
+
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #ff751a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imgContinent {
+    position: absolute;
+    overflow: hidden;
+    width: 680px;
+    left: 50%;
+    margin-left: -340px;
+    top: 30%;
+}
+#btnLibrary {
+    position: absolute;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    top: 42%;
+    left: 50%;
+    margin-left: -90px;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+h2 {
+    color: #2e0c27;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+#divLibrary {
+   background-color: rgba(244, 215, 238, 0.7);
+   width: 200px;
+   position: fixed;
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;   
+   margin-top: 15%;
+   margin-left: 60%;
+   border: #2e0c27 3px solid;
+   display: none;
+   
+}
+p {
+    margin: 15px;
+}
+#btnClose {
+    font-size: 18px;
+    margin-top: 0%;
+    color: #2e0c27;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    float: right;
+}
+@media (max-width: 768px) {
+  .navbar a {
+      font-size: 20px;
+      padding: 15px 5px;
+  }
+}

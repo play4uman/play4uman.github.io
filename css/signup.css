@@ -1,0 +1,139 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: black;
+    background-size: contain;
+    margin:auto;
+}
+html {
+    height: 100%;
+}
+
+.logo {
+    position: fixed;
+    width: 17%;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+hr {
+    overflow: hidden;
+    color:#2e0c27;
+    position: fixed;
+    top: 6.5%;
+    width: 73.5%;
+    margin-left: 19.3%;
+}
+#getEmail {
+    color: #ff751a;
+    overflow: hidden;
+    margin-left: -355px;
+    position: absolute;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 710px;
+    left: 50%;
+}
+#steps {
+    overflow: hidden;
+    position: fixed;
+    top: 8%;
+    margin-left: 18%;
+}
+input[type="email"] {
+    color: #ff944d;
+    overflow: hidden;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 0%;
+    border-bottom-color: #f4d7ee;
+    background-color: transparent;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 21%;
+    position: absolute;
+    border-width: 0px 0px 2px 0px;
+}
+::placeholder {
+    color: #ff944d;
+    opacity: unset;
+}
+button {
+    overflow: hidden;
+    margin-top: 28%;
+    width: 360px;
+    height: 60px;
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4d7ee;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 4px solid #ff751a;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -180px;
+    cursor: pointer;
+}
+/*not working*/
+button :hover {
+    font-weight: bold;
+}
+
+#schoolAccount {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 33%;
+    width: 260px;
+    left: 50%;
+    margin-left: -130px;
+
+    text-decoration: none;
+    color: #ff751a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+   
+@media (max-width: 768px) {
+    .navbar a {
+        font-size: 20px;
+        padding: 15px 5px;
+    }
+  }
+  

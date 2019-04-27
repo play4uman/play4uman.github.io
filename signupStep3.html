@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<link href="css/signupStep3.css" rel="stylesheet">
+		<title> Sign Up </title>
+	</head>
+	<body>
+        <div id="content" >
+            <img src="img/logo.png" class="logo"/>
+            <div class="navbar">
+                <a id="home" href="home.html">home</a>
+                <a id="game" href="game.html">game</a>               
+                <a id="universe" href="universe.html">universe</a>
+                <a id="stats" href="stats.html">stats</a>
+                <a id="support" href="support.html">support</a>
+                <a id="login" href="login.html">login</a>
+                <a id="playnow" href="playnow.html">play now</a>
+            </div>
+            <hr>
+            <img src="img/steps.png" id="steps" width="960px" height="100px"/>
+            <h1 id="getNames">please, enter your names</h1>
+            <input id="name" type="text" placeholder="enter first name here">
+            <input id="surname" type="text" placeholder="enter last name here">           
+            <button type="submit" id="btnNext">next</button>
+         </div>	        
+    </body>
+    <script type="text/javascript">
+        document.getElementById("btnNext").onclick = function () {
+            location.href = "signupStep4.html";
+        };
+    </script>
+</html>

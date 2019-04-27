@@ -1,0 +1,150 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: black;
+    background-size: contain;
+    margin:auto;
+}
+html {
+    height: 100%;
+}
+
+.logo {
+    position: fixed;
+    width: 17%;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+hr {
+    overflow: hidden;
+    color:#2e0c27;
+    position: fixed;
+    top: 6.5%;
+    width: 73.5%;
+    margin-left: 19.3%;
+}
+#steps {
+    overflow: hidden;
+    position: fixed;
+    top: 8%;
+    margin-left: 18%;
+}
+
+#getSchool {
+    color: #ff751a;
+    overflow: hidden;
+    margin-left: -295px;
+    position: absolute;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 14%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 590px;
+    left: 50%;
+}
+#cmbSchools {
+    position: absolute;
+    top: 38%;
+    width: 360px;
+    height: 45px;
+    left: 50%;
+    margin-left: -180px;
+
+    border-radius: 0%;
+    border: 2px solid#ff944d;
+    background-color: transparent;
+
+    font-size: 28px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ff944d;
+
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;  /*Removes default style Firefox*/
+     background: url(dropDownArrow.png) no-repeat right;
+}
+
+#getGrade {
+    overflow: hidden;
+    position: absolute;
+    top: 47%;
+    width: 460px;
+    left: 50%;
+    margin-left: -230px;
+
+    color: #ff751a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+#cmbGrades {
+    position: absolute;
+    top: 60%;
+    width: 360px;
+    height: 45px;
+    left: 50%;
+    margin-left: -180px;
+
+    border-radius: 0%;
+    border: 2px solid#ff944d;
+    background-color: transparent;
+
+    font-size: 28px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ff944d;
+
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;  /*Removes default style Firefox*/
+     background: url("dropDownArrow.png") no-repeat right;
+}
+
+button {
+    overflow: hidden;
+    top: 74%;
+    width: 400px;
+    height: 60px;
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4d7ee;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 4px solid #ff751a;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    cursor: pointer;
+}
