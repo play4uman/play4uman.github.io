@@ -69,24 +69,38 @@ body {
 #buttonDownloadWin {
     border: 6px solid #f4d7ee;
     margin-left: 52.5px;/*(wrapper width - button width)/2*/
-    margin-top: 300px;
+    margin-top: 90px;
     width: 535px;
     height: 80px;
     border-radius: 15px; 
-    padding-top: 0px;
-   
+    text-align: left;
+    text-align: center;
+    padding-left: 10px; 
+    padding-bottom: 15px; 
+    font-size: 250%;
+}
+#winLogo{
+    padding-left: 50px;
+    padding-bottom: 0;
 }
 
 #buttonDownloadApple {
     border: 6px solid #f4d7ee;
     margin-left: 640.5px;/*(wrapper width - button width)/2*/
-    margin-top: -92px;
+    margin-top: -106px;
     width: 525px;
     height: 80px;
     border-radius: 15px; 
-    padding-top: 0px;
-   
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size:250%;
 }
+#appleLogo{
+    padding-left: 50px;
+    padding-bottom: 0;
+}
+
 
 a:hover {
     font-weight: bolder;
@@ -133,7 +147,7 @@ a {
     top: 50%;
     left: 50%;
     margin-left: -600px;
-    margin-top: -180px;
+    margin-top: -250px;
     text-align: center;
 }
 
@@ -147,7 +161,7 @@ a {
 #buttDont{
     color:#ff751a;
     text-align: center;
-    font-size: 40%;
+    font-size: 35%;
     padding: 1%;
 }
 
