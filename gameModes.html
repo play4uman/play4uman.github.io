@@ -1,59 +1,113 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8"/> 
-		<link href="css/gameModes.css" rel="stylesheet">
-		<title> Game modes </title>
-	</head>
-	<body>
-        <div id="header" >
-            <img src="img/logo.png" class="logo"/>
-            <div class="navbar">
-                <a id="home" href="home.html">home</a>
-                <div class="dropdown">
-                        <a id="game" class="dropbtn">game</a>
-                        <div id="gameDrop" class="dropdown-content">
-                            <a href="whatIsRate.html">what is rate</a>
-                            <a href="howToPlay.html">how to play</a>
-                            <a id="modes" href="gameModes.html">game modes</a>
-                        </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="css/gameModes.css" rel="stylesheet">
+    <title> Game modes </title>
+</head>
+
+<body>
+    <div id="header">
+        <img src="img/logo.png" class="logo" />
+        <div class="navbar">
+            <a id="home" href="home.html">home</a>
+            <div class="dropdown">
+                <a id="game" class="dropbtn">game</a>
+                <div id="gameDrop" class="dropdown-content">
+                    <a href="whatIsRate.html">what is rate</a>
+                    <a href="howToPlay.html">how to play</a>
+                    <a id="modes" href="gameModes.html">game modes</a>
                 </div>
-                <div class="dropdown">
-                    <a id="universe" class="dropbtn">universe</a>
-                    <div id="universeDrop" class="dropdown-content">
-                        <a href="map.html">map</a>
-                        <a href="#adventurers">adventurers</a>
-                        <a id="items" href="items.html">items</a>
-                        <a id="enemies" href="enemies.html">enemies</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a id="stats" class="dropbtn">stats</a>
-                    <div id="statsDrop" class="dropdown-content">
-                        <a href="leaderboardAdventurers.html">leaderboard adventurers</a>
-                        <a href="#schools">leaderboard schools</a>
-                        <a id="search" href="search.html">search</a>
-                    </div>
-                </div>
-                <a id="support" href="support.html">support</a>
-                <a id="login" href="login.html">login</a>
-                <a id="playnow" href="playnow.html">play now</a>
             </div>
-            <hr>
-            <img id="top" src="img/topItems.png">
-        </div>	
-        <div class="buttons">
-                <button id="solo">Solo adventure</button>
-                <button id="player">Player vs. player</button>
-                <button id="team">Team vs. team</button>              
+            <div class="dropdown">
+                <a id="universe" class="dropbtn">universe</a>
+                <div id="universeDrop" class="dropdown-content">
+                    <a href="map.html">map</a>
+                    <a href="#adventurers">adventurers</a>
+                    <a id="items" href="items.html">items</a>
+                    <a id="enemies" href="enemies.html">enemies</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a id="stats" class="dropbtn">stats</a>
+                <div id="statsDrop" class="dropdown-content">
+                    <a href="leaderboardAdventurers.html">leaderboard adventurers</a>
+                    <a href="#schools">leaderboard schools</a>
+                    <a id="search" href="search.html">search</a>
+                </div>
+            </div>
+            <a id="support" href="support.html">support</a>
+            <a id="login" href="login.html">login</a>
+            <a id="playnow" href="playnow.html">play now</a>
         </div>
-        <img id="container" src="img/containerItems.png">
-        
-        <div id="content">
-            <h2>Solo adventure</h2>
-            <p>тук има снимка и текст, както са представени в layout-та</p>
-           
-            
-        </div>        
-	</body>
+        <hr>
+    </div>
+
+    <div id="daniContent">
+        <div id="daniContainer">
+            <div id=writableArea>
+                <div class="buttons">
+                    <button id="solo" onclick="changeText(this.id);">Solo adventure</button>
+                    <button id="player" onclick="changeText(this.id);">Player vs. player</button>
+                    <button id="team" onclick="changeText(this.id);">Team vs. team</button>
+                </div>
+                <div id="modePlaceholder">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function changeText(value) {
+            var modelPlaceholder = document.getElementById('modePlaceholder');
+            switch (value) {
+                case "solo":
+                    modelPlaceholder.innerHTML = document.getElementById('soloMode').innerHTML;
+                    break;
+                case "player":
+                    modelPlaceholder.innerHTML = document.getElementById('pvpMode').innerHTML;
+                    break;
+                case "team":
+                    modelPlaceholder.innerHTML = document.getElementById('teamMode').innerHTML;
+                    break;
+            }
+        }
+    </script>
+
+    <div id=soloMode style="display: hidden;">
+        <h1 style="text-align: center;">Solo adventure</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px;"><img src="img/HowToPlay1.png" class="leftImage">An adventurer who doesn’t wish to cross paths with other
+            fellow explorers can always go on his own merit. The realm of Rate is seemingly endless and no one knows
+            what treasures or dangers might be lurking around the next corner. If you choose to delve into your
+            adventure on your own you can rest assured that there will always be one more quest uncompleted; one more
+            enemy undefeated; one more treasure unlocated.
+        </p>
+    </div>
+
+    <div id=pvpMode style="display: hidden; visibility: hidden;">
+            <h1 style="text-align: center;">Player vs Player</h1>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px;"><img src="img/pvp.jpg" class="leftImage">Or perhaps you are the type of player who always wishes to test his limits by challenging his fellow adventurers on duels? Well then, the PvP (Player vs Player) arena of Rate is just for you! Here you can fight to the death(ok most often is just first blood) with any other player who has enrolled himself in the arena fighting lists. Battle adventurers from your school, become the leader of your fraction, challenge the best adventurers in the world and set in stone your legacy - of the strongest fighter the world has ever seen! 
+            </p>
+    </div>
+
+    <div id=teamMode style="display: hidden; visibility: hidden;">
+            <h1 style="text-align: center;">Team vs Team</h1>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 25px;"><img src="img/divinity-original-sin-pvp-mode.jpg" class="leftImage"> If you have forged an alliance with 4 fellow adventurers you can fight together as a team versus the enemy evil fractions. Fight as a team and crush your enemies in the 5v5 PvP arena and become the greatest warband that has marched the world of Rate! Challenge the best teams in the world and if you manage to defeat the collect the ultimate prize - the Rate 5v5 world champions title!
+            </p>
+    </div>
+
+</body>
+
 </html>
+
+<!-- .buttons {
+    overflow: hidden;
+    position: fixed;
+    top: 36%;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+    background-color: #2e0c27;
+    float:left;
+} -->
