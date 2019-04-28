@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<link href="stylePlayNoReg.css" rel="stylesheet">
+		<title> Play Now </title>
+	</head>
+	<body>
+        <div id="content" >
+            <img src="logo.png" class="logo"/>
+            <div class="navbar">
+                <a href="home.html">home</a>                 
+                <a href="game.html">game</a> 
+                <a href="#universe">universe</a>
+                <a href="#stats">stats</a>
+                <a href="#support">support</a>
+                <a href="login.html">login</a>
+                <a href="playNoReg.html" class="selected">play now</a>
+            </div>
+
+        </div>
+
+        <div id="wrapper"> 
+             <div id="i">
+             <p>
+                 You need to <a href="login.html" id="button">LOG IN</a> <br>
+                 to download. 
+             </p>
+             <a href="signup.html" id="buttDont">Don't have an account?</a>    
+            </div>
+
+             
+
+            <div id="buttonDownloadWin">
+                <a href="#downloadWin">DOWNLOAD for </a>
+            </div>
+
+                <div id="buttonDownloadApple">
+                    <a href="#downloadApple">DOWNLOAD for </a>
+            </div>
+        </div>
+        
+	</body>
+</html>
