@@ -119,14 +119,10 @@ hr {
 }
 
 .buttons {
-    overflow: hidden;
-    position: fixed;
-    top: 36%;
-    width: 800px;
-    left: 50%;
-    margin-left: -400px;
     background-color: #2e0c27;
-    
+    float:left;
+    width:100%;
+    margin-bottom: 40px;
 }
 
 .buttons button {
@@ -134,7 +130,7 @@ hr {
     display: block;
     background-color: transparent;
     text-align: center;
-    padding: 10px 65px;
+    padding: 10px 60px;
     text-decoration: none;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -167,4 +163,64 @@ h2 {
     height: 2px;
     margin-top: 10px;
     color: transparent;
+}
+
+#daniContent{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top: 18%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#daniContainer{
+    position: relative;
+    width: 1078px;
+    height: 550px;
+    top:50%;
+    left:50%;
+    margin-left:-35%;
+    margin-top:-23%;
+    background-image: url("../img/container.png");
+    background-size: 100% 100%;
+    word-wrap: break-word;
+    overflow:hidden;
+}
+
+#writableArea{
+    position: relative;
+    top: 20%;
+    left: 15%;
+    width:75%;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+
+#writableArea>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#writableArea>h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#writableArea>p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftImage{
+    float:left;
+    width:350px;
+    height:200px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border: 3px solid;
+}
+
+::placeholder { 
+    opacity: unset; 
 }
