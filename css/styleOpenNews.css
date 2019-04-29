@@ -63,7 +63,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
 }
-#support {
+#game, #what {
     font-weight: bold;
     color: #ff944d;
 }
@@ -108,33 +108,6 @@ hr {
     width: 73.5%;
     margin-left: 19.3%;
 }
-
-input[type="text"] {
-    color: #ff944d;
-    overflow: hidden;
-    width: 760px;
-    left: 50%;
-    margin-left: -390px;
-    height: 36px;
-    padding: 5px;
-    border-radius: 0%;
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;    
-    position: absolute;
-    border: 2px solid #ff944d;
-    top: 35%;
-}
-#btnSearch {
-    position: absolute;
-    padding: 0px;
-    top: 33%;
-    left: 76%;
-    background-color: transparent;
-    cursor: pointer;
-    border: 0px;
-}
-
 #content {
     width: 800px;
     margin-left: 20%;
@@ -145,20 +118,37 @@ input[type="text"] {
     z-index: 99;
 }
 
-#bold:hover{
-    font-weight: bolder;
+#title{
+font-size: 250%;
+text-align: center;
 }
 
-#bold{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: black;
+#love{
+    color: #ff751a;
 }
 
-p{
+#hate{
+    color: #2e0c27;
+}
+
+.sideImage{
+    float: left;
+    width:250px;
+    height: 200px;
+    position: absolute;
+}
+
+.sideText1{
+    float: right;
+    padding-left: 300px;
     font-size: 150%;
 }
+.sideText2{
+    float: right;
+    font-size: 150%;
+    margin-top: 0;
+}
+
 #daniContent{
     position: fixed;
     width:100%;
@@ -202,15 +192,16 @@ p{
 }
 
 #writableArea>p{
-    margin-bottom: 80px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .leftImage{
     float:left;
-    width:100px;
-    height:100px;
+    width:300px;
+    height:200px;
     margin-right: 30px;
     margin-bottom: 10px;
+    border: 3px solid;
 }
+

@@ -1,0 +1,241 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: black;
+    background-size: contain;
+    margin:auto;
+}
+html {
+    height: 100%;
+}
+.logo {
+    position: fixed;
+    width: 17%;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+
+/*#content {
+    position: relative;
+}
+#content img {
+    position: fixed;
+    width: 200px;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+
+.selected {
+    font-weight: bold;
+    color: #ff944d;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 24px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+
+/* Dropdown Button */
+/*.dropbtn {
+    padding: 16px;
+}
+
+#buttonLogin {
+    /*border: 6px solid #ff751a;*/
+/*    margin-left: 822.5px;/*(wrapper width - button width)/2*/
+/*    margin-top: 75px;
+    width: 355px;
+   /* border-radius: 15px; */
+/*    padding-top: 0px;
+   
+}*/
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+#home {
+    font-weight: bold;
+    color: #ff944d;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    margin-top: 3.5%;
+}
+
+.dropdown-content a{
+    color: #ff944d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#gameDrop,  #universeDrop{
+    margin-left: 13%;
+}
+#statsDrop {
+    margin-left: 4%;
+}
+hr {
+    overflow: hidden;
+    color:#2e0c27;
+    position: fixed;
+    top: 6.5%;
+    width: 73.5%;
+    margin-left: 19.3%;
+}
+#content {
+    width: 800px;
+    margin-left: 20%;
+    color:black;
+    position: auto;
+    padding-top: 21%;
+    text-align: justify;
+    z-index: 99;
+}
+
+
+
+#buttonDownloadWin {
+    border: 6px solid #ff751a;
+    margin-left: 52.5px;/*(wrapper width - button width)/2*/
+    margin-top: 150px;
+    width: 535px;
+    height: 80px;
+    border-radius: 15px; 
+    vertical-align: middle;
+}
+
+#winLogo{
+    position: relative;
+    left: 15px;
+    top:15px;
+}
+
+#buttonDownloadApple {
+    border: 6px solid #ff751a;
+    margin-left: 640.5px;/*(wrapper width - button width)/2*/
+    margin-top: -92px;
+    width: 525px;
+    height: 80px;
+    border-radius: 15px;
+    vertical-align: middle;   
+}
+
+#appleLogo{
+    position: relative;
+    left: 10px;
+    top:5px;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+a {
+    color: #f4d7ee;
+    font-size: 45px;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: auto 0 auto 0;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed; 
+}
+
+.dropdown-content a{
+    padding: 54px 24px;
+    right: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#i{
+    color:#ff751a;
+    text-align: center;
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    padding: 0px;
+    width: 1200px;
+    height: 360px;   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: -180px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
