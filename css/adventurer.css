@@ -95,12 +95,13 @@ html {
     display: block;
     width: 690px;
     height: 260px;    
-    top: 55%;
+    top: 55.5%;
     left: 50%;
     margin-left: -345px;
     background-color: rgba(244, 215, 238, 0.6);
     padding: 20px;
 }
+
 #titles div {
     float: left;
     color: #ff751a;
@@ -109,13 +110,17 @@ html {
     padding-left: 10px;
     cursor: pointer;
 }
-
+#informationText div{
+    float: left;
+    padding: 20px;
+}
 #graphic {
     margin-top: 5px;
     margin-bottom: 0px;
 }
 #glory {
     color: #2e0c27;
+    text-align: right;
 }
 #adventurer div {
     float: left;
