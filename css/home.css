@@ -145,6 +145,8 @@ hr {
 #writableArea>h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color:#2e0c27;
+    margin-bottom: 20px;
 }
 
 #writableArea>h2{
@@ -155,6 +157,8 @@ hr {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 80px;
+    text-align: justify;
+    padding-right: 10px;
 }
 
 .leftImage{
@@ -163,13 +167,13 @@ hr {
     height:200px;
     margin-right: 30px;
     margin-bottom: 10px;
-    border: 3px solid;
+    border: 3px solid #2e0c27;
 }
 
 #openNewsButton1{
     font-weight: bold;
     font-size: 150%;
-    color: black;
+    color: #2e0c27;
     text-decoration: none;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -178,7 +182,7 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 150%;
-    color: black;
+    color: #2e0c27;
     text-decoration: none;
     text-align: left;
     top: 250px;
@@ -188,7 +192,7 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 150%;
-    color: black;
+    color: #2e0c27;
     text-decoration: none;
     text-align: left;
     top: 550px;
