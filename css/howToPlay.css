@@ -138,7 +138,7 @@ hr {
     top: 20%;
     left: 15%;
     width:75%;
-    height: 450px;
+    height: 400px;
     overflow-y: auto;
     overflow-x:hidden;
 }
@@ -146,10 +146,12 @@ hr {
 #writableArea>h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: #2e0c27;
 }
 
 #writableArea>h2{
     font-family: Arial, Helvetica, sans-serif;
+    color: #2e0c27;
 }
 
 #writableArea>p{
