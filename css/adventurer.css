@@ -1,0 +1,215 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: black;
+    background-size: contain;
+    margin:auto;
+}
+html {
+    height: 100%;
+}
+
+.logo {
+    position: fixed;
+    width: 17%;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 83%;
+    right: 0;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff751a;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+#leaderboard, #stats {
+    font-weight: bold;
+    color: #ff944d;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #ff944d;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    margin-top: 3.5%;
+}
+
+#adventurer {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff751a;
+    position: absolute;
+    display: block;
+    width: 690px;
+    height: 200px;
+    left: 50%;
+    margin-left: -345px;
+    top: 20%;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+#information {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: block;
+    width: 690px;
+    height: 100px;
+    left: 50%;
+    margin-left: -345px;
+    top: 45%;
+}
+
+#informationText {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: block;
+    width: 690px;
+    height: 260px;    
+    top: 55%;
+    left: 50%;
+    margin-left: -345px;
+    background-color: rgba(244, 215, 238, 0.6);
+    padding: 20px;
+}
+#titles div {
+    float: left;
+    color: #ff751a;
+    width: 200px;    
+    border: #ff751a 1px solid;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#graphic {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#glory {
+    color: #2e0c27;
+}
+#adventurer div {
+    float: left;
+    padding: 6px;
+}
+#titles h2 {
+    font-weight: normal;
+}
+#summary {
+    color: #ff944d;
+}
+
+.dropdown-content a{
+    color: #ff944d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#gameDrop,  #universeDrop{
+    margin-left: 13%;
+}
+#statsDrop {
+    margin-left: 4%;
+}
+hr {
+    overflow: hidden;
+    color:#2e0c27;
+    position: fixed;
+    top: 6.5%;
+    width: 73.5%;
+    margin-left: 19.3%;
+}
+
+h1 {
+    overflow: hidden;
+    position: absolute;
+    top: 24%;
+    width: 860px;
+    left: 50%;
+    margin-left: -430px;
+
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #ff751a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+    color: #ff944d;
+    overflow: hidden;
+    width: 760px;
+    left: 50%;
+    margin-left: -430px;
+    height: 36px;
+    padding: 5px;
+    border-radius: 0%;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;    
+    position: absolute;
+    border: 2px solid #ff944d;
+    top: 40%;
+}
+
+
+
+#text h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+#like {
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+#update {
+    border-radius: 0%;
+    background-color: #ff751a;
+    color: #2e0c27;
+    border: 0px;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 3px;
+}
+
+@media (max-width: 768px) {
+  .navbar a {
+      font-size: 20px;
+      padding: 15px 5px;
+  }
+}
