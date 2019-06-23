@@ -191,6 +191,12 @@ td {
 #thirdPlace {
     margin-top: 75px;
 }
+
+#firstPlace a {
+    text-decoration: none;
+    color: #ff751a;
+    font-weight: bold;
+}
 @media (max-width: 768px) {
   .navbar a {
       font-size: 20px;
