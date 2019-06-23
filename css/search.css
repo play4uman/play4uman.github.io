@@ -116,10 +116,10 @@ input[type="text"] {
     border: 2px solid #ff944d;
     top: 40%;
 }
-#btnSearch {
+#searchAdventurer {
     position: absolute;
     padding: 0px;
-    top: 39%;
+    top: 39.5%;
     left: 77%;
     background-color: transparent;
     cursor: pointer;
@@ -134,7 +134,7 @@ input[type="text"] {
     margin-left: -250px;
 
 }
-#options h3 {  
+#options a, h3 {  
     color: #ff751a;
     float: left;
     text-align: center;
@@ -143,6 +143,7 @@ input[type="text"] {
     font-weight: normal;
     margin: 1px 40px 0px 20px;
     cursor: pointer;
+    text-decoration: none;
   
 }
 @media (max-width: 768px) {
