@@ -10,6 +10,7 @@ body {
 html {
     height: 100%;
 }
+
 .logo {
     position: fixed;
     width: 17%;
@@ -17,66 +18,6 @@ html {
     top: 0px;
     left: 0px;
 }
-
-/*#content {
-    position: relative;
-}
-#content img {
-    position: fixed;
-    width: 200px;
-    height: 140px;
-    top: 0px;
-    left: 0px;
-}
-
-.selected {
-    font-weight: bold;
-    color: #ff944d;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    width: 83%;
-    right: 0;
-
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #ff751a;
-    text-align: center;
-    padding: 15px 24px;
-    text-decoration: none;
-    font-size: 29px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-variant: small-caps;
-}
-
-.navbar a:hover {
-    font-weight: bold;
-    color: #ff944d;
-}
-
-/* Dropdown Button */
-/*.dropbtn {
-    padding: 16px;
-}
-
-#buttonLogin {
-    /*border: 6px solid #ff751a;*/
-/*    margin-left: 822.5px;/*(wrapper width - button width)/2*/
-/*    margin-top: 75px;
-    width: 355px;
-   /* border-radius: 15px; */
-/*    padding-top: 0px;
-   
-}*/
-
-
 
 .navbar {
     overflow: hidden;
@@ -99,7 +40,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
 }
-#home {
+#playnow {
     font-weight: bold;
     color: #ff944d;
 }
@@ -119,7 +60,7 @@ html {
 .dropdown-content {
     display: none;
     position: fixed;
-    margin-top: 3.5%;
+    margin-top: 1%;
 }
 
 .dropdown-content a{
@@ -159,7 +100,7 @@ hr {
 #buttonDownloadWin {
     border: 6px solid #ff751a;
     margin-left: 52.5px;/*(wrapper width - button width)/2*/
-    margin-top: 150px;
+    margin-top: 100px;
     width: 535px;
     height: 80px;
     border-radius: 15px; 

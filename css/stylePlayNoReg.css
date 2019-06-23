@@ -40,7 +40,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
 }
-#home {
+#playnow {
     font-weight: bold;
     color: #ff944d;
 }
@@ -60,7 +60,7 @@ html {
 .dropdown-content {
     display: none;
     position: fixed;
-    margin-top: 3.5%;
+    margin-top: 1%;
 }
 
 .dropdown-content a{
@@ -84,71 +84,7 @@ hr {
     top: 6.5%;
     width: 73.5%;
     margin-left: 19.3%;
-}/*
-#content {
-    width: 800px;
-    margin-left: 20%;
-    color:black;
-    position: auto;
-    padding-top: 21%;
-    text-align: justify;
-    z-index: 99;
 }
-#content img {
-    position: fixed;
-    width: 200px;
-    height: 140px;
-    top: 0px;
-    left: 0px;
-}
-
-.selected {
-    font-weight: bold;
-    color: #ff944d;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    width: 83%;
-    right: 0;
-
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #ff751a;
-    text-align: center;
-    padding: 15px 24px;
-    text-decoration: none;
-    font-size: 29px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-variant: small-caps;
-}
-
-.navbar a:hover {
-    font-weight: bold;
-    color: #ff944d;
-}
-
-/* Dropdown Button */
-/*.dropbtn {
-    padding: 16px;
-}
-
-#buttonLogin {
-    /*border: 6px solid #ff751a;*/
-/*    margin-left: 822.5px;/*(wrapper width - button width)/2*/
-/*    margin-top: 75px;
-    width: 355px;
-   /* border-radius: 15px; */
-/*    padding-top: 0px;
-   
-}*/
-
 #buttonDownloadWin {
     border: 6px solid #f4d7ee;
     margin-left: 22.5px;/*(wrapper width - button width)/2*/
@@ -165,14 +101,14 @@ hr {
 }
 #winLogo{
     position: absolute;
-    left:450px;
-    top:515px;
+    left:430px;
+    top:420px;
 }
 
 #buttonDownloadApple {
     border: 6px solid #f4d7ee;
     margin-left: 640.5px;/*(wrapper width - button width)/2*/
-    margin-top: -165px;
+    margin-top: -155px;
     width: 525px;
     height: 80px;
     border-radius: 15px; 
@@ -185,8 +121,8 @@ hr {
 }
 #appleLogo{
     position: absolute;
-    left: 1060px;
-    top: 515px;
+    left: 1050px;
+    top: 420px;
 }
 
 
@@ -197,7 +133,6 @@ a:hover {
 a {
     color: #f4d7ee;
     font-size: 45px;
-    font-variant: small-caps;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin-left: auto 0 auto 0;
@@ -233,7 +168,7 @@ a {
     width: 1200px;
     height: 360px;   
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 50%;
     margin-left: -600px;
     margin-top: -250px;
@@ -251,7 +186,7 @@ a {
 #buttDont{
     color:#ff751a;
     text-align: center;
-    font-size: 35%;
+    font-size: 150%;
     padding: 1%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -259,7 +194,16 @@ a {
 p{
     color:#f4d7ee;
     position: relative;
-    margin:5%;
+    margin:4%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#downloadWin{
+    text-align: left;
+    padding-left: 5%;
+}
+#downloadApple{
+    text-align: left;
+    padding-left: 5%;
 }
 
