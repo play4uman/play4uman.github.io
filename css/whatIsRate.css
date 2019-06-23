@@ -136,21 +136,26 @@ hr {
 #writableArea{
     position: relative;
     top: 20%;
-    left: 15%;
+    left: 12%;
     width:75%;
-    height: 450px;
+    height: 400px;
     overflow-y: auto;
     overflow-x:hidden;
+    text-align: justify;
+    padding: 10px;
+
 }
 
 #writableArea>h1{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left:55%;
+    left:60%;
+    color: #2e0c27;
 }
 
 #writableArea>h2{
     font-family: Arial, Helvetica, sans-serif;
+    color: #2e0c27;
 }
 
 .daniText{
@@ -166,5 +171,5 @@ hr {
     height:200px;
     margin-right: 30px;
     margin-bottom: 10px;
-    border: 3px solid;
+    border: 3px solid #2e0c27;
 }
