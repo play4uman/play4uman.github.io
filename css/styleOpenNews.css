@@ -164,7 +164,7 @@ text-align: center;
     height: 550px;
     top:50%;
     left:50%;
-    margin-left:-35%;
+    margin-left:-539px;
     margin-top:-23%;
     background-image: url("../img/container.png");
     background-size: 100% 100%;
@@ -177,7 +177,7 @@ text-align: center;
     top: 20%;
     left: 15%;
     width:75%;
-    height: 450px;
+    height: 400px;
     overflow-y: auto;
     overflow-x:hidden;
 }
@@ -194,6 +194,8 @@ text-align: center;
 #writableArea>p{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-right: 10px;
 }
 
 .leftImage{
@@ -202,6 +204,6 @@ text-align: center;
     height:200px;
     margin-right: 30px;
     margin-bottom: 10px;
-    border: 3px solid;
+    border: 3px solid #2e0c27;
 }
 
