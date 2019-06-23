@@ -125,15 +125,6 @@ input[type="text"] {
     border: 2px solid #ff944d;
     top: 35%;
 }
-#btnSearch {
-    position: absolute;
-    padding: 0px;
-    top: 24%;
-    left: 75%;
-    background-color: transparent;
-    cursor: pointer;
-    border: 0px;
-}
 
 #content {
     width: 800px;
@@ -153,7 +144,7 @@ input[type="text"] {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: black;
+    color: #2e0c27;
 }
 
 p{
@@ -202,7 +193,7 @@ p{
 }
 
 #writableArea>p{
-    margin-bottom: 80px;
+    margin-bottom: 55px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -213,9 +204,4 @@ p{
     height:100px;
     margin-right: 30px;
     margin-bottom: 10px;
-}
-
-::placeholder { 
-    color: #ff944d;
-    opacity: unset; 
 }
